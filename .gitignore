@@ -1,0 +1,35 @@
+# Python virtual environment
+/venv/
+/env/
+/.venv/
+/ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Sensitive Data Files
+# IMPORTANT: Add your raw data files here to avoid committing them.
+# It's best practice to add a small, anonymized sample file (e.g., sample_trades.csv)
+# to the repository for demonstration purposes.
+trades.csv
+sentiment.csv
+
+# Environment variables
+.env
+
+# Output directory for generated plots
+# Note: We allow .png files so you can commit the charts for your README.
+/outputs/*
+!/outputs/*.png
