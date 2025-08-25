@@ -112,8 +112,9 @@ jupyter lab
 ---
  ## 👤 Author
 -  Syed Abdul Waheed
--  Data Science Enthusiast | Python Developer |
+-  Data Science Enthusiast | Machine Learning |
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
 - 🐙 GitHub: waheed24-03
+
 
 
