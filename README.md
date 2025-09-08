@@ -112,10 +112,11 @@ jupyter lab
 ---
 ## 👤 Author
 -  Syed Abdul Waheed
--  Data Science Enthusiast | Machine Learning |
+-  Data Science | Machine Learning |
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
 - 🐙 GitHub: waheed24-03
 ---
+
 
 
 
