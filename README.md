@@ -1,4 +1,4 @@
-📄 Overview
+## 📄 Overview
 
 This project delivers a quantitative analysis of cryptocurrency trading behavior, examining how market sentiment influences profitability, trade size, and risk exposure.
 
@@ -6,8 +6,10 @@ By combining personal trading history with the Crypto Fear & Greed Index, it hig
 
 Goal: Identify actionable patterns in trading behavior and optimize strategies based on market psychology.
 
-🔑 Key Findings
-💰 Profitability Trends
+--- 
+
+## 🔑 Key Findings
+##💰 Profitability Trends
 
 Highest average PnL during Extreme Greed: +$67.89/trade
 
@@ -117,3 +119,4 @@ Data Science & Machine Learning Enthusiast
 📬 LinkedIn
 
 🐙 GitHub
+
