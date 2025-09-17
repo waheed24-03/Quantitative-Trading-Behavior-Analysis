@@ -1,106 +1,98 @@
-## 📄 Overview
 
-This project delivers a quantitative analysis of cryptocurrency trading behavior, examining how market sentiment influences profitability, trade size, and risk exposure.
+---
 
-By combining personal trading history with the Crypto Fear & Greed Index, it highlights behavioral biases shaping decision-making under various market conditions.
+## **Overview**  
 
-Goal: Identify actionable patterns in trading behavior and optimize strategies based on market psychology.
+This project performs a **quantitative analysis** of cryptocurrency trading performance, examining how **market sentiment** influences **profitability, trade size, and risk exposure**.  
 
---- 
+By merging **personal trading history** with the **Crypto Fear & Greed Index**, the analysis reveals how behavioral biases affect trading decisions and outcomes under different psychological market states.
 
-## 🔑 Key Findings
-### 💰 Profitability Trends
+> **Objective** → To identify patterns in trading behavior and optimize strategy based on market psychology.
 
-Highest average PnL during Extreme Greed: +$67.89/trade
+---
 
-Lowest average PnL during Neutral sentiment: +$34.30/trade
+## **Key Insights & Findings**
 
-Insight: Strategy performs best during bullish, momentum-driven phases
+### **1. Profitability Trends** 💰
+- Highest **average PnL** occurred during **Extreme Greed** → **+$67.89** per trade.
+- Lowest PnL recorded during **Neutral** sentiment → **+$34.30** per trade.
+- **Insight** → Strategy performs best during bullish momentum phases.
 
-### 📉 Risk Exposure
+---
 
-Average trade size peaked during Fear (~$7,816); lowest during Extreme Greed (~$3,112)
+### **2. Risk Exposure** 📉
+- Average trade size peaked during **Fear** (~$7,816), lowest during **Extreme Greed** (~$3,112).
+- Indicates a **“buy-the-dip” bias**: larger capital deployment during pessimistic sentiment.
+- Higher PnL volatility observed during **Fear** and **Extreme Greed** → risk increases during market extremes.
 
-Suggests a “buy-the-dip” bias, with larger positions taken in pessimistic markets
+---
 
-PnL volatility highest during Fear and Extreme Greed, indicating elevated risk at extremes
+### **3. Trade Direction Analysis** 📊
+- Evaluated **Buy (Long)** vs **Sell (Short)** profitability under each sentiment phase.
+- Identified the optimal **trade direction** depending on sentiment-driven market dynamics.
 
-### 📊 Trade Direction Analysis
+---
 
-Compared long vs. short profitability across sentiment phases
+### **4. Volatility Mapping** ⚡
+- Calculated **PnL standard deviation** by sentiment category.
+- Discovered that trades executed during **Extreme Fear** had the highest unpredictability.
 
-Identified optimal trade direction patterns linked to sentiment
+---
 
-- ⚡ Volatility Mapping
+## **Technical Stack** 🛠️  
 
-Measured PnL standard deviation by sentiment category
+- **Language** → Python 3.10+  
+- **Data Manipulation** → Pandas, NumPy  
+- **Visualization** → Matplotlib, Seaborn  
+- **Environment** → Jupyter Notebook / Google Colab  
+- **Data Sources** →  
+  - Personal Trading Ledger (`trades.csv`)  
+  - Crypto Fear & Greed Index (`sentiment.csv`)  
 
-Trades during Extreme Fear showed the highest unpredictability
+---
 
---- 
+## **Methodology** 🔍  
 
-###  🛠️ Technology Stack
+### **Step 1 — Data Ingestion**
+- Loaded trading history and sentiment data.  
 
-- Language: Python 3.10+
+### **Step 2 — Data Cleaning & Preprocessing**
+- Standardized date formats via `pd.to_datetime`.  
+- Renamed columns for clarity (`Closed PnL` → `PnL`).  
 
-Data Manipulation: Pandas, NumPy
+### **Step 3 — Data Merging**
+- Performed a **left join** on **trade date** to map sentiment to each trade.
 
-Visualization: Matplotlib, Seaborn
+### **Step 4 — Exploratory Data Analysis (EDA)**
+- Grouped data by **Sentiment** to compute:  
+  - Mean PnL  
+  - Average trade size  
+  - Trade frequency  
+  - PnL volatility (std deviation)  
 
-Environment: Jupyter Notebook / Google Colab
+### **Step 5 — Visualization**
+- Designed **insight-driven plots** to showcase relationships between sentiment, profitability, and behavior.
 
-Data Sources:
+---
 
-Personal Trading Ledger (trades.csv)
+## **Key Visualizations**
 
-Crypto Fear & Greed Index (sentiment.csv)
+### **PnL Distribution by Sentiment**
+![PnL Distribution](outputs/pnl_distribution_by_sentiment.png)
 
-🔍 Methodology
+### **Average PnL by Sentiment**
+![Average PnL](outputs/avg_pnl_by_sentiment.png)
 
-Data Ingestion
+### **Trade Size vs. Sentiment**
+![Trade Size](outputs/avg_trade_value_by_sentiment.png)
 
-Imported trading history and sentiment data
+---
 
-Data Cleaning & Preprocessing
+## **How to Run This Project**
 
-Standardized date formats with pd.to_datetime
-
-Renamed columns for clarity (e.g., Closed PnL → PnL)
-
-Data Merging
-
-Performed a left join on trade date to map sentiment to each trade
-
-Exploratory Data Analysis (EDA)
-
-Grouped trades by sentiment to calculate:
-
-Mean PnL
-
-Average trade size
-
-Trade frequency
-
-PnL volatility
-
-Visualization
-
-Created insight-oriented plots showing relationships between sentiment, profitability, and behavior
-
-📊 Key Visualizations
-
-PnL Distribution by Sentiment
-
-
-Average PnL by Sentiment
-
-
-Trade Size vs. Sentiment
-
-
-🚀 How to Run
+```bash
 # Clone the repository
-git clone https://github.com/waheed24-03/Quantitative-Trading-Behavior-Analysis
+https://github.com/waheed24-03/Quantitative-Trading-Behavior-Analysis
 
 # Install dependencies
 pip install pandas matplotlib seaborn jupyterlab
@@ -112,14 +104,41 @@ csv_files/sentiment.csv
 # Launch Jupyter Notebook
 jupyter lab
 
-👤 Author
+```
+---
+---
+## 👤 Author
+-  Syed Abdul Waheed
+-  Data Science | Machine Learning |
+- 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
+- 🐙 GitHub: waheed24-03
+---
 
-Syed Abdul Waheed
 
-Data Science & Machine Learning Enthusiast
 
-📬 LinkedIn
 
-🐙 GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
