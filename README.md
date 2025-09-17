@@ -9,7 +9,7 @@ Goal: Identify actionable patterns in trading behavior and optimize strategies b
 --- 
 
 ## 🔑 Key Findings
-##💰 Profitability Trends
+### 💰 Profitability Trends
 
 Highest average PnL during Extreme Greed: +$67.89/trade
 
@@ -17,7 +17,7 @@ Lowest average PnL during Neutral sentiment: +$34.30/trade
 
 Insight: Strategy performs best during bullish, momentum-driven phases
 
-📉 Risk Exposure
+### 📉 Risk Exposure
 
 Average trade size peaked during Fear (~$7,816); lowest during Extreme Greed (~$3,112)
 
@@ -25,21 +25,23 @@ Suggests a “buy-the-dip” bias, with larger positions taken in pessimistic ma
 
 PnL volatility highest during Fear and Extreme Greed, indicating elevated risk at extremes
 
-📊 Trade Direction Analysis
+### 📊 Trade Direction Analysis
 
 Compared long vs. short profitability across sentiment phases
 
 Identified optimal trade direction patterns linked to sentiment
 
-⚡ Volatility Mapping
+- ⚡ Volatility Mapping
 
 Measured PnL standard deviation by sentiment category
 
 Trades during Extreme Fear showed the highest unpredictability
 
-🛠️ Technology Stack
+--- 
 
-Language: Python 3.10+
+###  🛠️ Technology Stack
+
+- Language: Python 3.10+
 
 Data Manipulation: Pandas, NumPy
 
@@ -119,4 +121,5 @@ Data Science & Machine Learning Enthusiast
 📬 LinkedIn
 
 🐙 GitHub
+
 
