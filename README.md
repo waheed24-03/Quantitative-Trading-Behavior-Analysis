@@ -1,15 +1,6 @@
 
 ---
 
-## **Overview**  
-
-This project performs a **quantitative analysis** of cryptocurrency trading performance, examining how **market sentiment** influences **profitability, trade size, and risk exposure**.  
-
-By merging **personal trading history** with the **Crypto Fear & Greed Index**, the analysis reveals how behavioral biases affect trading decisions and outcomes under different psychological market states.
-
-> **Objective** → To identify patterns in trading behavior and optimize strategy based on market psychology.
-
----
 
 ## **Key Insights & Findings**
 
@@ -112,6 +103,7 @@ jupyter lab
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
 - 🐙 GitHub: waheed24-03
 ---
+
 
 
 
