@@ -105,6 +105,12 @@ csv_files/sentiment.csv
 jupyter lab
 
 ```
+---
+## 👤 Author
+-  Syed Abdul Waheed
+-  Data Science | Machine Learning |
+
+
 
 
 
