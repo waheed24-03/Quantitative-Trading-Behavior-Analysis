@@ -88,7 +88,7 @@ By merging **personal trading history** with the **Crypto Fear & Greed Index**, 
 
 ---
 
-
+## **How to Run This Project**
 
 ```bash
 # Clone the repository
@@ -112,6 +112,7 @@ jupyter lab
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
 - 🐙 GitHub: waheed24-03
 ---
+
 
 
 
