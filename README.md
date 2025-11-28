@@ -1,7 +1,6 @@
 
 ---
 
-## **Overview**  
 
 This project performs a **quantitative analysis** of cryptocurrency trading performance, examining how **market sentiment** influences **profitability, trade size, and risk exposure**.  
 
@@ -113,6 +112,7 @@ jupyter lab
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
 - 🐙 GitHub: waheed24-03
 ---
+
 
 
 
