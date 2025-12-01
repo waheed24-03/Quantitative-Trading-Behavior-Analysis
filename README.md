@@ -111,7 +111,7 @@ jupyter lab
 -  Syed Abdul Waheed
 -  Data Science | Machine Learning |
 - 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
-- 🐙 GitHub: waheed24-03
+
 
 
 
